@@ -1,11 +1,11 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #fdf5e6;
+    background-color: #f8f8fd; /* Light pastel purple background */
 }
 
 header {
-    background-color: #ffb6c1;
+    background-color: #a6c7f0; /* Soft pastel blue */
     padding: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -23,7 +23,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     font-weight: bold;
 }
@@ -46,7 +46,7 @@ nav ul li a {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: rgba(255, 182, 193, 0.7);
+    background-color: rgba(166, 199, 240, 0.7); /* Soft pastel blue with transparency */
     padding: 2rem;
     border-radius: 15px;
 }
@@ -62,7 +62,7 @@ nav ul li a {
 }
 
 .btn {
-    background-color: #ff69b4;
+    background-color: #57a3f3; /* Bright pastel blue */
     color: white;
     padding: 0.8rem 2rem;
     text-decoration: none;
@@ -74,7 +74,7 @@ nav ul li a {
 }
 
 .btn:hover {
-    background-color: #ff1493;
+    background-color: #4687d8; /* Darker shade on hover */
 }
 
 section {
@@ -82,16 +82,30 @@ section {
     text-align: center;
 }
 
-section#about {
-    background-color: #fff0f5;
+section#features {
+    background-color: #ffffff; /* White background */
     margin: 2rem 0;
     padding: 2rem 0;
 }
 
-section#contact {
-    background-color: #ffe4e1;
+section#about {
+    background-color: #f0f4f8; /* Light grey background */
     margin: 2rem 0;
     padding: 2rem 0;
+}
+
+footer {
+    background-color: #a6c7f0; /* Matching header color */
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: #333;
 }
 
 h2 {
@@ -103,5 +117,25 @@ h2 {
 p {
     font-size: 1.1rem;
     color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
 }
 
